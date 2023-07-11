@@ -5,10 +5,10 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
+    "Inicio",
+    "Assistência Técnica",
+    "Sistema de Automação",
+    "Sites",
     "Blog",
   ];
   const legal = ["Terms", "Privacy", "Legal"];
@@ -27,14 +27,13 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>Nextly</span>
+                  <span>SystemTec</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+              SystemTec Solução em Informática para Você Empreendedor que busca
+              qualidade e excelente custo benefício.
             </div>
 
             <div className="mt-5">
@@ -45,7 +44,7 @@ export default function Footer() {
                 className="relative block w-44">
                 <Image
                   src="/img/vercel.svg"
-                  alt="Powered by Vercel"
+                  alt="Hospedado na Vercel"
                   width="212"
                   height="44"
                 />
@@ -72,7 +71,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
+            <div>Nos Sigam</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://twitter.com/web3templates"
@@ -112,14 +111,14 @@ export default function Footer() {
             href="https://web3templates.com/"
             target="_blank"
             rel="noopener">
-            Web3Templates.
+            SystemTec
           </a>{" "}
           Illustrations from{" "}
           <a
             href="https://www.glazestock.com/"
             target="_blank"
             rel="noopener ">
-            Glazestock
+            Anderson Leonardo
           </a>
         </div>
       </Container>
@@ -198,7 +197,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      <span>SystemTec</span>
     </a>
   );
 };

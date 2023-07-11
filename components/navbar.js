@@ -5,10 +5,10 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
+    "Inicio",
+    "Assistência Técnica",
+    "Sistema de Automação",
+    "Sites",
     "Blog",
   ];
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>SystemTec</span>
                   </span>
                 </Link>
 
@@ -65,8 +65,8 @@ const Navbar = () => {
                           {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
+                    <Link href="https://wa.me/message/BSA4YTAIUDRUL1" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                        Contato
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -89,8 +89,8 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+          <Link href="https://wa.me/message/BSA4YTAIUDRUL1" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              Contato
           </Link>
 
           <ThemeChanger />

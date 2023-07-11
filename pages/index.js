@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,32 +27,26 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Benefícios de escolher a SystemTec"
+        title="Nós focamos primeiramente em resolver os problemas de informática do cliente">
+        SystemTec é a solução que Você precisa para melhorar seus computadores/notebooks, para garantir o funcionamento correto de suas máquinas com garantia e segurança. Caso precise de um Sistema que ajude no gerenciamento do seu estabelecimento temos também a solução e se quer divulgar sua marca na internet, criamos um site com a sua cara que vai agregar muito no seu crescimento como empreendedor.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        pretitle="Video de Apresentação"
+        title="Aqui está um pouco do nosso trabalho">
+        Em breve video de apresentação da empresa
       </SectionTitle>
       <Video />
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        pretitle="Testemunhos"
+        title="Aqui estão alguns dos nossos clientes">
+        Testemunho de Clientes que utilizam nosso serviço e aprovam
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle pretitle="FAQ" title="Algumas perguntas frequentes">
+        Aqui estão algumas perguntas frequentes dos clientes
       </SectionTitle>
       <Faq />
       <Cta />

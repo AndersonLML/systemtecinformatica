@@ -106,9 +106,9 @@ const PopupWidget = () => {
               leaveTo="opacity-0 translate-y-5">
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
-                  <h3 className="text-lg text-white">How can we help?</h3>
+                  <h3 className="text-lg text-white">Precisa de ajuda?</h3>
                   <p className="text-white opacity-50">
-                    We usually respond in a few hours
+                    Nós responderemos em algumas horas
                   </p>
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
@@ -139,12 +139,12 @@ const PopupWidget = () => {
                         <label
                           htmlFor="full_name"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Full Name
+                          Nome Inteiro
                         </label>
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Anderson Leonardo"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
@@ -166,7 +166,7 @@ const PopupWidget = () => {
                         <label
                           htmlFor="email"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Email Address
+                          Seu mail
                         </label>
                         <input
                           type="email"
@@ -178,7 +178,7 @@ const PopupWidget = () => {
                               message: "Please enter a valid email",
                             },
                           })}
-                          placeholder="you@company.com"
+                          placeholder="exemplo@gmail.com"
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -197,7 +197,7 @@ const PopupWidget = () => {
                         <label
                           htmlFor="message"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400">
-                          Your Message
+                          Sua Mensagem
                         </label>
 
                         <textarea
@@ -206,7 +206,7 @@ const PopupWidget = () => {
                           {...register("message", {
                             required: "Enter your Message",
                           })}
-                          placeholder="Your Message"
+                          placeholder="Sua Mensagem"
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
                             errors.message
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -242,7 +242,7 @@ const PopupWidget = () => {
                                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                             </svg>
                           ) : (
-                            "Send Message"
+                            "Enviar Mensagem"
                           )}
                         </button>
                       </div>
@@ -250,13 +250,13 @@ const PopupWidget = () => {
                         className="text-xs text-center text-gray-400"
                         id="result">
                         <span>
-                          Powered by{" "}
+                          Feito por{" "}
                           <a
                             href="https://Web3Forms.com"
                             className="text-gray-600"
                             target="_blank"
                             rel="noopener noreferrer">
-                            Web3Forms
+                            SystemTec
                           </a>
                         </span>
                       </p>
@@ -280,13 +280,13 @@ const PopupWidget = () => {
                           />
                         </svg>
                         <h3 className="py-5 text-xl text-green-500">
-                          Message sent successfully
+                          Mensagem enviada com sucesso!
                         </h3>
                         <p className="text-gray-700 md:px-3">{Message}</p>
                         <button
                           className="mt-6 text-indigo-600 focus:outline-none"
                           onClick={() => reset()}>
-                          Go back
+                          Voltar
                         </button>
                       </div>
                     </>
@@ -309,13 +309,13 @@ const PopupWidget = () => {
                       </svg>
 
                       <h3 className="text-xl text-red-400 py-7">
-                        Oops, Something went wrong!
+                        Algo não está correto
                       </h3>
                       <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-indigo-600 focus:outline-none"
                         onClick={() => reset()}>
-                        Go back
+                        Voltar
                       </button>
                     </div>
                   )}

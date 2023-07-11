@@ -11,46 +11,46 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Alguns dos benefícios de escolher a SystemTec",
+  desc: "",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Assistência Técnica a Domicílio",
+      desc: "Não precisa trazer seu aparelho até nós, nossa assistência vai até Você",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Sistema de Automação Nota 10 avaliado pelos clientes",
+      desc: "Temos mais de 200 clientes que utilizam nosso sistema pelo Brasil",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Sites Rápidos, Seguros e com um preço que cabe no seu bolso",
+      desc: "Nossos sites são feitos com as mais novas tecnologias, prezando melhor desempenho e custo benefício",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Mais alguns benefícios da SystemTec",
+  desc: "",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Atendemos todo tipo de cliente, independente de idade ou equipamento",
+      desc: "Temos clientes desde jovens iniciantes a gente da melhor idade, e atendemos a todos com paciência e entendimento",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Suporte Nível A para te antender da melhor forma possível",
+      desc: "Nossa equipe de suporte é muito bem avaliada pelos clientes e está sempre disposta a lhes atender com dedicação e comprometimento",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Sites com hospedagem gratuíta",
+      desc: "Nossos sites diferente da maioria dos outros, é hospedado sem a necessidade de aluguel de hospedagem, melhorando o custo benefício, sem interferir na performance ",
       icon: <SunIcon />,
     },
   ],

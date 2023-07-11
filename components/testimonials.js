@@ -13,42 +13,45 @@ const Testimonials  = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Faço manutenções dos computadores da empresa e
+               utilizo o sistema de automação comercial da SystemTec, 
+               sempre me atenderam super bem e 
+               quando preciso o suporte é rápido e bem prestado,
+                recomendo a todos
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Aldin"
+              title="Dono da Empresa Dim Gás e Água"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              Suporte nota 10, sempre que precisamos eles nos atendem
+              super bem, além de boa assistência técnica o sistema também
+              é bem completo
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Glícia "
+              title="Dona da Empresa Majestosa Moda Plus Size"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+              Empresa muito boa, super recomendo seus serviços e o seu sistema
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Talita"
+              title="Dona na Empresa Aurora Hortifruti"
             />
           </div>
         </div>

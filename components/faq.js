@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Vocês consertam computadores e notebooks?",
+    answer: "Sim, prestamos serviços em computadores e notebooks",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "O Sistema de Vocês é completo, com módulo fiscal?",
+    answer: "Sim, nosso sistema pode ser utilizado para Controle de Estoque, Controle de Vendas, Controle de Ordem de Serviços, Orçamentos, Emissão de Cupoms Fiscais, Emissão de NFE entre mais funcionalidades",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Vocês não cobram mensalidade para deixar o site online igual os outros desenvolvedores?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Sim, nosso site é feito com uma tecnologia nova, não necessitando de compra de hospedagem, oque diminui o custo de desenvolvimento, melhorando o custo benefício para o cliente",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Vocês possuem parceria com alguma outra empresa?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Sim, temos parceria com a NetSolutions - Soluções em Informática",
   },
 ];
 
