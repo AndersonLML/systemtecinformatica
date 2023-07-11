@@ -21,7 +21,7 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
-                      src="/img/logo.svg"
+                      src="/img/logo1.svg"
                       alt="N"
                       width="32"
                       height="32"
@@ -108,14 +108,14 @@ export default function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
-            href="https://web3templates.com/"
+            href="https://systemtec.vercel.app/"
             target="_blank"
             rel="noopener">
             SystemTec
           </a>{" "}
           Illustrations from{" "}
           <a
-            href="https://www.glazestock.com/"
+            href="https://github.com/AndersonLML"
             target="_blank"
             rel="noopener ">
             Anderson Leonardo
@@ -174,7 +174,7 @@ const Linkedin = ({ size = 24 }) => (
 const Backlink = () => {
   return (
     <a
-      href="https://web3templates.com"
+      href="https://systemtec.vercel.app/"
       target="_blank"
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300">
@@ -192,7 +192,26 @@ const Backlink = () => {
           fill="#362F78"
         />
         <path
-          d="M10.14 21.94H12.24L15.44 12.18L18.64 21.94H20.74L24.88 8H22.64L19.58 18.68L16.36 8.78H14.52L11.32 18.68L8.24 8H6L10.14 21.94Z"
+          d="M0 2500 l0 -2500 2500 0 2500 0 0 2500 0 2500 -2500 0 -2500 0 0
+          -2500z m1625 1316 c33 -2 67 -6 75 -9 8 -3 47 -11 85 -17 79 -13 145 -30 255
+          -67 87 -29 221 -83 233 -93 4 -4 -18 -70 -49 -146 -31 -76 -72 -177 -91 -224
+          -19 -47 -38 -89 -42 -93 -5 -5 -35 3 -67 16 -252 105 -503 157 -661 137 -206
+          -26 -319 -187 -255 -361 37 -102 103 -149 450 -323 140 -70 266 -135 280 -145
+          15 -10 53 -36 86 -57 92 -61 199 -157 221 -197 11 -20 23 -37 28 -37 7 0 78
+          -140 83 -165 1 -5 9 -38 18 -71 20 -79 21 -283 1 -378 -39 -184 -127 -319
+          -285 -439 -128 -97 -341 -165 -582 -188 -223 -20 -556 17 -743 85 -38 13 -98
+          35 -133 48 l-62 23 0 286 0 286 49 -24 c85 -40 306 -122 414 -152 255 -73 473
+          -79 607 -18 92 42 140 101 160 199 13 67 2 122 -37 182 -59 90 -111 125 -412
+          276 -230 115 -347 183 -441 255 -66 51 -146 134 -162 170 -6 14 -14 25 -18 25
+          -7 0 -83 145 -86 165 -1 6 -10 39 -19 75 -33 125 -19 394 25 479 5 9 14 31 21
+          49 17 46 82 145 127 193 98 107 279 199 458 235 74 15 344 34 389 27 11 -1 47
+          -5 80 -7z m1984 -36 l1026 0 0 -242 0 -243 -380 -5 -380 -5 -3 -1144 c-1 -663
+          -6 -1147 -11 -1150 -5 -3 -138 -5 -295 -3 l-286 3 0 1149 0 1150 -382 0 -383
+          0 2 243 c1 133 2 246 3 251 0 5 14 6 31 2 17 -3 493 -6 1058 -6z m-2439 -594
+          c0 -3 -4 -8 -10 -11 -5 -3 -10 -1 -10 4 0 6 5 11 10 11 6 0 10 -2 10 -4z
+          m-666 -342 c3 -8 2 -12 -4 -9 -6 3 -10 10 -10 16 0 14 7 11 14 -7z m776 -34
+          c0 -5 -2 -10 -4 -10 -3 0 -8 5 -11 10 -3 6 -1 10 4 10 6 0 11 -4 11 -10z m105
+          -750 c3 -6 -1 -7 -9 -4 -18 7 -21 14 -7 14 6 0 13 -4 16 -10z"
           fill="#F7FAFC"
         />
       </svg>
