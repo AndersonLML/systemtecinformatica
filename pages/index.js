@@ -5,6 +5,7 @@ import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
+import VideoManutencao from "../components/videoManutencao";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
@@ -36,9 +37,9 @@ const Home = () => {
       <SectionTitle
         pretitle="Video de Apresentação"
         title="Aqui está um pouco do nosso trabalho">
-        Em breve video de apresentação da empresa
+        Limpeza e Troca de Pasta Térmica de um Notebook Dell Inspirion 1440
       </SectionTitle>
-      <Video />
+      <VideoManutencao />
       <SectionTitle
         pretitle="Testemunhos"
         title="Aqui estão alguns dos nossos clientes">
