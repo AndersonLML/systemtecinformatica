@@ -13,10 +13,10 @@ export default function Footer() {
   ];
   const links = [
     "https://systemtec.vercel.app/",
-     "https://animesonlineup.co/naruto-shippuden/",
-     "https://google.com",
-     "https://facebook.com",
-     "https://instagram.com",
+    "https://systemtec.vercel.app/",
+    "https://systemtec.vercel.app/sistemadeautomacao/",
+    "https://systemtec.vercel.app/",
+    "https://systemtec.vercel.app/",
    ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
