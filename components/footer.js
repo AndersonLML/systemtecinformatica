@@ -12,11 +12,11 @@ export default function Footer() {
     "Blog",
   ];
   const links = [
-    "https://systemtec.vercel.app/",
-    "https://systemtec.vercel.app/",
-    "https://systemtec.vercel.app/sistemadeautomacao/",
-    "https://systemtec.vercel.app/",
-    "https://systemtec.vercel.app/",
+    "https://systemtecinformatica.vercel.app/",
+    "https://systemtecinformatica.vercel.app/",
+    "https://systemtecinformatica.vercel.app/sistemadeautomacao/",
+    "https://systemtecinformatica.vercel.app/",
+    "https://systemtecinformatica.vercel.app/",
    ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="https://systemtec.vercel.app/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+              <Link href="https://systemtecinformatica.vercel.app/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
                       src="/img/logo1.svg"
                       alt="N"
@@ -116,7 +116,7 @@ export default function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
-            href="https://systemtec.vercel.app/"
+            href="https://systemtecinformatica.vercel.app/"
             target="_blank"
             rel="noopener">
             SystemTec
@@ -182,7 +182,7 @@ const Linkedin = ({ size = 24 }) => (
 const Backlink = () => {
   return (
     <a
-      href="https://systemtec.vercel.app/"
+      href="https://systemtecinformatica.vercel.app/"
       target="_blank"
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300">
