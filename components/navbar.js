@@ -18,8 +18,6 @@ const Navbar = () => {
       "https://systemtec.vercel.app/",
       "https://systemtec.vercel.app/",
      ];
-     console.log(links);
-     console.log(navigation);
 
   return (
     <div className="w-full">
