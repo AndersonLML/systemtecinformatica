@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index, links) => (
+              {legal.map((item, index) => (
                 <Link key={index} href={links} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
                     {item}
                 </Link>
