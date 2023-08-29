@@ -34,12 +34,12 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>SystemTec</span>
+                  <span>System Tec Informática</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              SystemTec Solução em Informática para Você Empreendedor que busca
+              System Tec Informática Solução em Informática para Você Empreendedor que busca
               qualidade e excelente custo benefício.
             </div>
 
@@ -119,7 +119,7 @@ export default function Footer() {
             href="https://systemtecinformatica.vercel.app/"
             target="_blank"
             rel="noopener">
-            SystemTec
+            System Tec Informática
           </a>{" "}
           Illustrations from{" "}
           <a
@@ -224,7 +224,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>SystemTec</span>
+      <span>System Tec Informática</span>
     </a>
   );
 };

@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites</title>
+        <title>System Tec Informática - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites</title>
         <meta
           name="description"
-          content="SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
+          content="System Tec Informática - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,9 +27,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Benefícios de escolher a SystemTec"
+        pretitle="Benefícios de escolher a System Tec Informática"
         title="Nós focamos primeiramente em resolver os problemas de informática do cliente">
-        SystemTec é a solução que Você precisa para melhorar seus computadores/notebooks, para garantir o funcionamento correto de suas máquinas com garantia e segurança. Caso precise de um Sistema que ajude no gerenciamento do seu estabelecimento temos também a solução e se quer divulgar sua marca na internet, criamos um site com a sua cara que vai agregar muito no seu crescimento como empreendedor.
+        System Tec Informática é a solução que Você precisa para melhorar seus computadores/notebooks, para garantir o funcionamento correto de suas máquinas com garantia e segurança. Caso precise de um Sistema que ajude no gerenciamento do seu estabelecimento temos também a solução e se quer divulgar sua marca na internet, criamos um site com a sua cara que vai agregar muito no seu crescimento como empreendedor.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />

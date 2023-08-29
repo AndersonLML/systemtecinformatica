@@ -14,7 +14,7 @@ const Testimonials  = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               Faço manutenções dos computadores da empresa e
-               utilizo o sistema de automação comercial da SystemTec, 
+               utilizo o sistema de automação comercial da System Tec Informática, 
                sempre me atenderam super bem e 
                quando preciso o suporte é rápido e bem prestado,
                 recomendo a todos

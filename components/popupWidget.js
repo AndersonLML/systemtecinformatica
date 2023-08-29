@@ -256,7 +256,7 @@ const PopupWidget = () => {
                             className="text-gray-600"
                             target="_blank"
                             rel="noopener noreferrer">
-                            SystemTec
+                            System Tec Informática
                           </a>
                         </span>
                       </p>

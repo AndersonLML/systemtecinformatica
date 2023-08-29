@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites</title>
+        <title>System Tec Informática - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites</title>
         <meta
           name="description"
-          content="SystemTec - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
+          content="System Tec Informática - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

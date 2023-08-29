@@ -38,7 +38,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>SystemTec</span>
+                    <span>System Tec Informática</span>
                   </span>
                 </Link>
 

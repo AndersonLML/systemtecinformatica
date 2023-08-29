@@ -11,7 +11,7 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Alguns dos benefícios de escolher a SystemTec",
+  title: "Alguns dos benefícios de escolher a System Tec Informática",
   desc: "",
   image: benefitOneImg,
   bullets: [
@@ -34,7 +34,7 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Mais alguns benefícios da SystemTec",
+  title: "Mais alguns benefícios da System Tec Informática",
   desc: "",
   image: benefitTwoImg,
   bullets: [
