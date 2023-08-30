@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              System Tec Informática Solução em Informática para Você Empreendedor que busca
+              System Tec Informática a Solução em Informática para Você Empreendedor que busca
               qualidade e excelente custo benefício.
             </div>
 
