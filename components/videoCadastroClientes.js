@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Container from "./container";
 
-const Video = () => {
+const videoCadastroClientes= () => {
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>
@@ -28,7 +28,7 @@ const Video = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/2egxgHpK1bw"
-              title="Como cadastrar o cliente no Sistema de forma Simples e prática"
+              title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática "
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
@@ -39,4 +39,4 @@ const Video = () => {
   );
 }
 
-export default Video;
+export default videoCadastroClientes;
