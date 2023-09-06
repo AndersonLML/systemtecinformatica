@@ -4,8 +4,11 @@ import Navbar from "../../components/navbar";
 import SectionTitle from "../../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../../components/data";
-import Video from "../../components/videoEmissaoNFE";
-import VideoClientes from "../../components/videoCadastroClientes";
+import VideoEmissaoNFE from "../../components/videoEmissaoNFE";
+import VideoCadastroClientes from "../../components/videoCadastroClientes";
+import VideoCadastroProdutos from "../../components/videoCadastroProdutos";
+import VideoPerfilFiscal from "../../components/videoPerfilFiscal";
+import VideoPromissoria from "../../components/videoPromissoria";
 import Benefits from "../../components/benefits";
 import Footer from "../../components/footer";
 import Testimonials from "../../components/testimonials";
@@ -52,8 +55,6 @@ const Home = () => {
        title="Como fazer uma venda a prazo gerando a promissória da venda">
       </SectionTitle>
       <VideoPromissoria />
-
-      
 
       <SectionTitle
         pretitle="Testemunhos"
