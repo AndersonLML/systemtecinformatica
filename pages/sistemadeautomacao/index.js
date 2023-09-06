@@ -4,8 +4,8 @@ import Navbar from "../../components/navbar";
 import SectionTitle from "../../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../../components/data";
-import Video from "../../components/video";
-import VideoClientes from "../../components/videoClientes";
+import Video from "../../components/videoEmissaoNFE";
+import VideoClientes from "../../components/videoCadastroClientes";
 import Benefits from "../../components/benefits";
 import Footer from "../../components/footer";
 import Testimonials from "../../components/testimonials";
@@ -26,17 +26,34 @@ const Home = () => {
       </Head>
 
       <Navbar />
-      
-      <SectionTitle
-        pretitle="Tutoriais de como utilizar melhor nosso Sistema de Automação"
-        title="Como Fazer a emissão de uma NFe a partir de uma venda">
-      </SectionTitle>
-      <Video />
 
       <SectionTitle
-        title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
+       pretitle="Tutoriais de como utilizar melhor nosso Sistema de Automação"
+       title="Como Cadastrar o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal">
       </SectionTitle>
-      <VideoClientes />
+      <VideoCadastroProdutos />
+
+      <SectionTitle
+       title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
+      </SectionTitle>
+      <VideoCadastroClientes />
+      
+      <SectionTitle
+       title="Como configurar o Perfil Fiscal no Sistema com o CFOP de Venda">
+      </SectionTitle>
+      <VideoPerfilFiscal />
+
+      <SectionTitle
+        title="Como Fazer a emissão de uma NFe a partir de uma venda">
+      </SectionTitle>
+      <VideoEmissaoNFE />
+
+      <SectionTitle
+       title="Como fazer uma venda a prazo gerando a promissória da venda">
+      </SectionTitle>
+      <VideoPromissoria />
+
+      
 
       <SectionTitle
         pretitle="Testemunhos"

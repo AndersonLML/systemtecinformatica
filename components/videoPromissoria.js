@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Container from "./container";
 
-const Video = () => {
+const VideoPromissoria = () => {
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>
@@ -27,8 +27,8 @@ const Video = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://youtube.com/embed/N9dXpVBxfU0"
-              title="Como fazer a emissão de NFe a partir de uma venda"
+              src="https://youtube.com/embed/QHIGehIorBU"
+              title="Como fazer uma venda a prazo gerando a promissória da venda"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
@@ -39,4 +39,4 @@ const Video = () => {
   );
 }
 
-export default Video;
+export default VideoPromissoria;

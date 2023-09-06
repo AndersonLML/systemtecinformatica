@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigation = [
       "Inicio",
       "Assistência Técnica",
-      "Sistema de Automação",
+      "Tutoriais - Sistema de Automação",
       "Sites",
       "Blog",    
     ];

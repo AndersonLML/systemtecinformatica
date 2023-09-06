@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Container from "./container";
 
-const VideoClientes = () => {
+const VideoCadastroClientes = () => {
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>
@@ -39,4 +39,4 @@ const VideoClientes = () => {
   );
 }
 
-export default VideoClientes;
+export default VideoCadastroClientes;
