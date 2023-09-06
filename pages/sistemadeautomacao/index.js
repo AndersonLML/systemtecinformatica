@@ -5,7 +5,7 @@ import SectionTitle from "../../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../../components/data";
 import Video from "../../components/video";
-import videoCadastroClientes from "../../components/videoCadastroClientes";
+import VideoClientes from "../../components/videoClientes";
 import Benefits from "../../components/benefits";
 import Footer from "../../components/footer";
 import Testimonials from "../../components/testimonials";
@@ -32,10 +32,12 @@ const Home = () => {
         title="Como Fazer a emissão de uma NFe a partir de uma venda">
       </SectionTitle>
       <Video />
+
       <SectionTitle
-        title="Como cadastrar o cliente no Sistema de forma Simples e prática">
+        title="Como Fazer a emissão de uma NFe a partir de uma venda">
       </SectionTitle>
-      <videoCadastroClientes />
+      <VideoClientes />
+
       <SectionTitle
         pretitle="Testemunhos"
         title="Aqui estão alguns dos nossos clientes">
