@@ -28,7 +28,15 @@ const Video = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/N9dXpVBxfU0"
-              title="Emissão de NFe"
+              title="Como fazer a emissão de NFe a partir de uma venda"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          )}
+          {playVideo && (
+            <iframe
+              src="https://youtube.com/embed/2egxgHpK1bw"
+              title="Como Cadastrar Clientes de forma simples e prática"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
