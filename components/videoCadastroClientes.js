@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Container from "./container";
 
-const videoCadastroClientes= () => {
+const videoCadastroClientes = () => {
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>

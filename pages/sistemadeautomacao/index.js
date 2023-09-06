@@ -35,7 +35,7 @@ const Home = () => {
       <SectionTitle
         title="Como cadastrar o cliente no Sistema de forma Simples e prática">
       </SectionTitle>
-      <videoCadastroClientes/>
+      <videoCadastroClientes />
       <SectionTitle
         pretitle="Testemunhos"
         title="Aqui estão alguns dos nossos clientes">
