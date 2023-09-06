@@ -34,7 +34,7 @@ const Home = () => {
       <Video />
 
       <SectionTitle
-        title="Como Fazer a emissão de uma NFe a partir de uma venda">
+        title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
       </SectionTitle>
       <VideoClientes />
 
