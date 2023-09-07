@@ -15,6 +15,10 @@ import Testimonials from "../../components/testimonials";
 import Cta from "../../components/cta";
 import Faq from "../../components/faq";
 import PopupWidget from "../../components/popupWidget";
+import VideoManutencaoProdutos from "../../components/videoManutencaoProdutos";
+import VideoSuprimentoCaixa from "../../components/videoSuprimentoCaixa";
+import VideoAberturaCaixa from "../../components/videoAberturaCaixa";
+import VideoFechamentoCaixa from "../../components/videoFechamentoCaixa";
 
 const Home = () => {
   return (
@@ -30,11 +34,31 @@ const Home = () => {
 
       <Navbar />
 
+       <SectionTitle
+       pretitle="Como utilizar as funções do Sistema"
+       title="Como Fazer a Abertura de Caixa">
+      </SectionTitle>
+      <VideoAberturaCaixa />
+
       <SectionTitle
-       pretitle="Tutoriais de como utilizar melhor nosso Sistema de Automação"
+       title="Como Fazer um Suprimento de Caixa">
+      </SectionTitle>
+      <VideoSuprimentoCaixa />
+
+      <SectionTitle
+       title="Como Fazer o Fechamento de Caixa">
+      </SectionTitle>
+      <VideoFechamentoCaixa />
+
+      <SectionTitle
        title="Como Cadastrar o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal">
       </SectionTitle>
       <VideoCadastroProdutos />
+
+      <SectionTitle
+       title="Como alterar o preço dos produtos pela Manutenção dos Produtos">
+      </SectionTitle>
+      <VideoManutencaoProdutos />
 
       <SectionTitle
        title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
