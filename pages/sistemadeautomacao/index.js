@@ -51,6 +51,7 @@ const Home = () => {
       <VideoFechamentoCaixa />
 
       <SectionTitle
+       pretitle="Como melhorar o Controle dos Produtos"
        title="Como Cadastrar o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal">
       </SectionTitle>
       <VideoCadastroProdutos />
@@ -61,11 +62,13 @@ const Home = () => {
       <VideoManutencaoProdutos />
 
       <SectionTitle
+      pretitle="Como aumentar o Controle dos Clientes"
        title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
       </SectionTitle>
       <VideoCadastroClientes />
       
       <SectionTitle
+       pretitle="Configurações Fiscais e outras Funcionalidades"
        title="Como configurar o Perfil Fiscal no Sistema com o CFOP de Venda">
       </SectionTitle>
       <VideoPerfilFiscal />
