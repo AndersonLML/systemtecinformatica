@@ -7,9 +7,9 @@ const Navbar = () => {
   const navigation = [
       "Inicio",
       "Assistência Técnica",
-      "Tutoriais - Sistema de Automação",
+      "Tutoriais - Sistema de Automação Comercial",
       "Sites",
-      "Blog",    
+      "Em Breve",    
     ];
     const links = [
       "https://systemtecinformatica.vercel.app/",

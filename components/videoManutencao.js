@@ -27,7 +27,7 @@ const VideoManutencao = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://youtube.com/embed/EWX59gTJ5Ac"
+              src="https://youtube.com/embed/MUfE-wdZGgE"
               title="Emissão de NFe"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

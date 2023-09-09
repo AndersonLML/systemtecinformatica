@@ -35,7 +35,7 @@ const Home = () => {
       <Navbar />
 
        <SectionTitle
-       pretitle="Como utilizar as funções do Sistema"
+       pretitle="Como aumentar o Controle de Caixa Diário"
        title="Como Fazer a Abertura de Caixa">
       </SectionTitle>
       <VideoAberturaCaixa />
