@@ -19,6 +19,7 @@ import VideoManutencaoProdutos from "../../components/videoManutencaoProdutos";
 import VideoSuprimentoCaixa from "../../components/videoSuprimentoCaixa";
 import VideoAberturaCaixa from "../../components/videoAberturaCaixa";
 import VideoFechamentoCaixa from "../../components/videoFechamentoCaixa";
+import VideoAtualizarProdutoBalanca from "../../components/videoAtualizarProdutoBalanca";
 
 const Home = () => {
   return (
@@ -57,9 +58,14 @@ const Home = () => {
       <VideoCadastroProdutos />
 
       <SectionTitle
-       title="Como alterar o preço dos produtos pela Manutenção dos Produtos">
+       title="Como alterar o preço dos Produtos pela Manutenção dos Produtos">
       </SectionTitle>
       <VideoManutencaoProdutos />
+
+      <SectionTitle
+       title="Como atualizar os Produtos da Balança direto pelo Sistema">
+      </SectionTitle>
+      <VideoAtualizarProdutoBalanca />
 
       <SectionTitle
       pretitle="Como aumentar o Controle dos Clientes"
