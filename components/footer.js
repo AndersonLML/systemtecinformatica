@@ -34,7 +34,7 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>System Tec Informática</span>
+                  <span>System Tec Informática Barretos</span>
               </Link>
             </div>
 
@@ -119,7 +119,7 @@ export default function Footer() {
             href="https://systemtecinformatica.vercel.app/"
             target="_blank"
             rel="noopener">
-            System Tec Informática
+            System Tec Informática Barretos
           </a>{" "}
           Illustrations from{" "}
           <a
@@ -224,7 +224,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>System Tec Informática</span>
+      <span>System Tec Informática Barretos</span>
     </a>
   );
 };
