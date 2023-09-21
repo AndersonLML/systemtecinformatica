@@ -3,21 +3,19 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
-export default function Footer() {
-  const navigation = [
-   "Inicio",
-    "Assistência Técnica",
-    "Sistema de Automação",
-    "Sites",
-    "Blog",
-  ];
-  const links = [
-    "https://systemtecinformatica.vercel.app/",
-    "https://systemtecinformatica.vercel.app/",
-    "https://systemtecinformatica.vercel.app/sistemadeautomacao/",
-    "https://systemtecinformatica.vercel.app/",
-    "https://systemtecinformatica.vercel.app/",
-   ];
+ const Footer = () => {
+    const navigation = [
+        "Inicio",
+        "Assistência Técnica",
+        "Tutoriais - Sistema de Automação Comercial",
+        "Sites", 
+      ];
+      const links = [
+        "https://systemtecinformatica.vercel.app/",
+        "https://systemtecinformatica.vercel.app/",
+        "https://systemtecinformatica.vercel.app/sistemadeautomacao/",
+        "https://systemtecinformatica.vercel.app/",
+       ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -61,8 +59,8 @@ export default function Footer() {
 
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index, links) => (
-                <Link key={index} href={links} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
+              {navigation.map((item, index) => (
+                <Link key={index} href={links[index]} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
                     {item}
                 </Link>     
               ))}
@@ -72,7 +70,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href={links} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
+                <Link key={index} href={links[index]} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
                     {item}
                 </Link>
               ))}
@@ -228,3 +226,4 @@ const Backlink = () => {
     </a>
   );
 };
+export default Footer;
