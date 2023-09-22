@@ -22,7 +22,7 @@ const benefitOne = {
     },
     {
       title: "Sistema de Automação Nota 10 avaliado pelos clientes",
-      desc: "Temos mais de 200 clientes que utilizam nosso sistema pelo Brasil",
+      desc: "Temos mais de 500 clientes que utilizam nosso sistema pelo Brasil e com a comprovação que Sistemas melhoram o ambiente de trabalho tanto na agilidade como também na organização do Comércio",
       icon: <ChartBarSquareIcon />,
     },
     {
@@ -44,7 +44,7 @@ const benefitTwo = {
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Suporte Nível A para te antender da melhor forma possível",
+      title: "Suporte Nível A para te atender da melhor forma possível",
       desc: "Nossa equipe de suporte é muito bem avaliada pelos clientes e está sempre disposta a lhes atender com dedicação e comprometimento",
       icon: <AdjustmentsHorizontalIcon />,
     },

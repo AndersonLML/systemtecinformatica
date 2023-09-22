@@ -11,6 +11,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import VideoApresentacaoSistema from "../components/videoApresentacaoSistema";
 
 const Home = () => {
   return (
@@ -35,10 +36,10 @@ const Home = () => {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Video de Apresentação"
-        title="Aqui está um pouco do nosso trabalho">
-        Limpeza e Troca de Pasta Térmica de um Notebook Dell Inspirion 1440
+        title="Sistema Completo - Apenas 49,90">
+        Video de Apresentação do Sistema de Automação Comercial
       </SectionTitle>
-      <VideoManutencao />
+      <VideoApresentacaoSistema />
       <SectionTitle
         pretitle="Testemunhos"
         title="Aqui estão alguns dos nossos clientes">
