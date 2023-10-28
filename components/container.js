@@ -1,4 +1,6 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const Container = (props) => {
   return (
@@ -7,6 +9,7 @@ const Container = (props) => {
         props.className ? props.className : ""
       }`}>
       {props.children}
+      <Analytics />
     </div>
   );
 }
