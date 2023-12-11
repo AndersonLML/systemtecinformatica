@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
-import { Analytics } from '@vercel/analytics/react';
+
 import { benefitOne, benefitTwo } from "../components/data";
 import VideoManutencao from "../components/videoManutencao";
 import Benefits from "../components/benefits";
@@ -23,7 +23,6 @@ const Home = () => {
           content="System Tec Informática - Assistência Técnica em Informática, Venda de Sistemas de Automação e Criação de Sites"
         />
         <link rel="icon" href="/favicon.ico" />
-        
       </Head>
 
       <Navbar />
@@ -37,7 +36,7 @@ const Home = () => {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Video de Apresentação"
-        title="Sistema Completo - A partir de 49,90">
+        title="Sistema Completo - Apenas 49,90">
         Video de Apresentação do Sistema de Automação Comercial
       </SectionTitle>
       <VideoApresentacaoSistema />
@@ -54,9 +53,7 @@ const Home = () => {
       <Cta />
       <Footer />
       <PopupWidget />
-      <Analytics />
     </>
-    
   );
 }
 
