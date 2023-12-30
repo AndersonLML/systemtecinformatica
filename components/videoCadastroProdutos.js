@@ -28,7 +28,7 @@ const VideoCadastroProdutos = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/T5_g0hao7c0"
-              title="Como Cadastrar o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal"
+              title="Cadastrando o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

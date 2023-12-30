@@ -39,7 +39,7 @@ const Home = () => {
 
        <SectionTitle
        pretitle="Aumentando o Controle de Caixa Diário"
-       title="Como Fazer a Abertura de Caixa">
+       title="Fazendo a Abertura de Caixa">
       </SectionTitle>
       <VideoAberturaCaixa />
 

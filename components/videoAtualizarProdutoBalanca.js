@@ -28,7 +28,7 @@ const VideoAtualizarProdutoBalanca = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/46LJkp7n01k"
-              title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática"
+              title="Cadastrando o Cliente no Sistema de Forma Simples e Prática"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

@@ -28,7 +28,7 @@ const VideoEmissaoNFE = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/N9dXpVBxfU0"
-              title="Como fazer a emissão de NFe a partir de uma venda"
+              title="Fazendo a emissão de NFe a partir de uma venda"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

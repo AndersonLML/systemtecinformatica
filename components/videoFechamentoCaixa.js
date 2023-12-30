@@ -28,7 +28,7 @@ const VideoFechamentoCaixa = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/qE2Iy90xF1I"
-              title="Como fazer o Fechamento do Caixa"
+              title="Fazendo o Fechamento de Caixa"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

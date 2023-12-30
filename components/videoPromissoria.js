@@ -28,7 +28,7 @@ const VideoPromissoria = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/QHIGehIorBU"
-              title="Como fazer uma venda a prazo gerando a promissória da venda"
+              title="Fazendo uma venda a prazo gerando a promissória da venda"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

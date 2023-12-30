@@ -32,7 +32,7 @@ import Container from "./container";
                       height="32"
                       className="w-8"
                     />
-                  <span>System Tec Informática Barretos</span>
+                  <span>SystemTec T.I</span>
               </Link>
             </div>
 
@@ -118,7 +118,7 @@ import Container from "./container";
             href="https://systemtecinformatica.vercel.app/"
             target="_blank"
             rel="noopener">
-            System Tec Informática Barretos
+            SystemTec T.I
           </a>{" "}
           Illustrations from{" "}
           <a
@@ -223,7 +223,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>System Tec Informática Barretos</span>
+      <span>SystemTec T.I</span>
     </a>
   );
 };

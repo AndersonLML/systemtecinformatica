@@ -28,7 +28,7 @@ const VideoManutencaoProdutos = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/_t4uDyerz7w"
-              title="Como alterar o preço dos produtos pela Manutenção dos Produtos"
+              title="Alterarando o preço dos produtos pela Manutenção dos Produtos"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

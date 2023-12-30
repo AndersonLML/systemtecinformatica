@@ -28,7 +28,7 @@ const VideoSuprimentoCaixa = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/eQbx4UQ10oU"
-              title="Como fazer um Suprimento de Caixa de Forma Simples e Prática"
+              title="Fazendo um Suprimento de Caixa de Forma Simples e Prática"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
