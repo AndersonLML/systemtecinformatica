@@ -27,7 +27,7 @@ const VideoEntradaDeProdutos = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://youtube.com/embed/_t4uDyerz7w"
+              src="https://youtube.com/embed/-bvlUqeVbMc"
               title="Atualizando o Estoque da Empresa com Entrada de Produtos"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
