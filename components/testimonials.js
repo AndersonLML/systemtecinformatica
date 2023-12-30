@@ -23,7 +23,7 @@ const Testimonials  = () => {
             <Avatar
               image={userOneImg}
               name="Aldin"
-              title="SEO - Mercearia San Diego"
+              title="CEO - Mercearia San Diego"
             />
           </div>
         </div>
@@ -38,7 +38,7 @@ const Testimonials  = () => {
             <Avatar
               image={userTwoImg}
               name="Glícia "
-              title="SEO - Majestosa Moda Plus Size"
+              title="CEO - Majestosa Moda Plus Size"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ const Testimonials  = () => {
             <Avatar
               image={userThreeImg}
               name="Talita e Jeferson"
-              title="SEO - Aurora Hortifruti"
+              title="CEO - Aurora Hortifruti"
             />
           </div>
         </div>

@@ -20,6 +20,8 @@ import VideoSuprimentoCaixa from "../../components/videoSuprimentoCaixa";
 import VideoAberturaCaixa from "../../components/videoAberturaCaixa";
 import VideoFechamentoCaixa from "../../components/videoFechamentoCaixa";
 import VideoAtualizarProdutoBalanca from "../../components/videoAtualizarProdutoBalanca";
+import VideoEntradaDeProdutos from "../../components/videoEntradaDeProdutos";
+import VideoOrdemServico from "../../components/videoOrdemDeServico";
 
 const Home = () => {
   return (
@@ -36,67 +38,78 @@ const Home = () => {
       <Navbar />
 
        <SectionTitle
-       pretitle="Como aumentar o Controle de Caixa Diário"
+       pretitle="Aumentando o Controle de Caixa Diário"
        title="Como Fazer a Abertura de Caixa">
       </SectionTitle>
       <VideoAberturaCaixa />
 
       <SectionTitle
-       title="Como Fazer um Suprimento de Caixa">
+       title="Fazendo um Suprimento de Caixa">
       </SectionTitle>
       <VideoSuprimentoCaixa />
 
       <SectionTitle
-       title="Como Fazer o Fechamento de Caixa">
+       title="Fazendo o Fechamento de Caixa">
       </SectionTitle>
       <VideoFechamentoCaixa />
 
       <SectionTitle
-       pretitle="Como melhorar o Controle dos Produtos"
-       title="Como Cadastrar o Produto de Forma Completa para poder Emitir NFE e Cupom Fiscal">
+       pretitle="Fazendo o Controle dos Produtos"
+       title="Fazendo Cadastro de Produtos de Forma Completa para poder Emitir NFE e Cupom Fiscal">
       </SectionTitle>
       <VideoCadastroProdutos />
 
       <SectionTitle
-       title="Como alterar o preço dos Produtos pela Manutenção dos Produtos">
+       title="Fazendo atualização de Estoque com a Entrada de Produtos">
+      </SectionTitle>
+      <VideoEntradaDeProdutos/>
+
+      <SectionTitle
+       title="Alterando o preço dos Produtos pela Manutenção dos Produtos">
       </SectionTitle>
       <VideoManutencaoProdutos />
 
       <SectionTitle
-       title="Como atualizar os Produtos da Balança direto pelo Sistema">
+       title="Atualizando os Produtos da Balança direto pelo Sistema">
       </SectionTitle>
       <VideoAtualizarProdutoBalanca />
 
       <SectionTitle
-      pretitle="Como aumentar o Controle dos Clientes"
-       title="Como Cadastrar o Cliente no Sistema de Forma Simples e Prática">
+      pretitle="Aumentando o Controle dos Clientes"
+       title="Cadastrando o Cliente no Sistema de Forma Simples e Prática">
       </SectionTitle>
       <VideoCadastroClientes />
       
       <SectionTitle
+       title="Fazendo Ordem de Serviço - Completo">
+      </SectionTitle>
+      <VideoOrdemServico />
+
+      <SectionTitle
        pretitle="Configurações Fiscais e outras Funcionalidades"
-       title="Como configurar o Perfil Fiscal no Sistema com o CFOP de Venda">
+       title="Configurando o Perfil Fiscal no Sistema com o CFOP de Venda">
       </SectionTitle>
       <VideoPerfilFiscal />
 
       <SectionTitle
-        title="Como Fazer a emissão de uma NFe a partir de uma venda">
+        title="Fazendo a emissão de uma NFe a partir de uma venda">
       </SectionTitle>
       <VideoEmissaoNFE />
 
       <SectionTitle
-       title="Como fazer uma venda a prazo gerando a promissória da venda">
+       title="Fazendo uma venda a prazo gerando a promissória da venda">
       </SectionTitle>
       <VideoPromissoria />
 
       <SectionTitle
-        pretitle="Testemunhos"
+        pretitle="Cases de Sucesso"
         title="Aqui estão alguns dos nossos clientes">
-        Testemunho de Clientes que utilizam nosso serviço e aprovam
+        Clientes que utilizam nossos serviços
       </SectionTitle>
+
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Algumas perguntas frequentes">
-        Aqui estão algumas perguntas frequentes dos clientes
+        Aqui estão algumas perguntas frequentes
       </SectionTitle>
       <Faq />
       <Cta />

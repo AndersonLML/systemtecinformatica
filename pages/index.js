@@ -41,13 +41,13 @@ const Home = () => {
       </SectionTitle>
       <VideoApresentacaoSistema />
       <SectionTitle
-        pretitle="Testemunhos"
+        pretitle="Cases de Sucesso"
         title="Aqui estão alguns dos nossos clientes">
-        Testemunho de Clientes que utilizam nosso serviço e aprovam
+        Clientes que utilizam nosso serviço e aprovam
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Algumas perguntas frequentes">
-        Aqui estão algumas perguntas frequentes dos clientes
+        Aqui estão algumas perguntas frequentes
       </SectionTitle>
       <Faq />
       <Cta />
