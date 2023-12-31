@@ -28,7 +28,7 @@ const VideoPerfilFiscal = () => {
           {playVideo && (
             <iframe
               src="https://youtube.com/embed/jfHp1JpmTME"
-              title="Configurarando o Perfil Fiscal no Sistema com o CFOP de Venda"
+              title="Configurando o Perfil Fiscal no Sistema com o CFOP de Venda"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
