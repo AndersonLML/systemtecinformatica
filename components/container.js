@@ -1,5 +1,6 @@
 import React from "react";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const Container = (props) => {
@@ -10,6 +11,7 @@ const Container = (props) => {
       }`}>
       {props.children}
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
