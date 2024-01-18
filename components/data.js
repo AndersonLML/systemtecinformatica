@@ -16,8 +16,8 @@ const benefitOne = {
   image: benefitOneImg,
   bullets: [
     {
-      title: "Assistência Técnica a Domicílio",
-      desc: "Não precisa trazer seu aparelho até nós, nossa assistência vai até Você",
+      title: "Assistência Técnica em Barretos-SP a Domicílio",
+      desc: "Não precisa trazer seu aparelho até nós, nossa assistência técnica vai até Você",
       icon: <FaceSmileIcon />,
     },
     {

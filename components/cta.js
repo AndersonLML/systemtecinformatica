@@ -10,7 +10,7 @@ const Cta = () => {
             Quer entrar em contato com a gente?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Nos envie uma mensagem e combinamos uma visita sem nenhum custo
+            Nos envie uma mensagem.
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
